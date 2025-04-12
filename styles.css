@@ -3,20 +3,44 @@
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
+    background: black;
+    color: white;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px;
-    gap: 14px;
+    padding: 1rem;
+    gap: 1rem;
 }
 
 .nav-container {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
+    list-style: none;
 }
 
+.nav-text a {
+    text-decoration: none;
+    color: inherit;
+}
 
+.nav-text a:hover {
+    color: #f0f0f0;
+    text-decoration: underline;
+}
+
+.image-button {
+    border: none;
+    background: transparent;
+}
+
+.image-button img {
+    width: 60px;
+    height: 60px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 100%;
+}
